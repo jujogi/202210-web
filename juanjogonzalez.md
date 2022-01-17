@@ -1,5 +1,8 @@
-# Juan José González
+# 🧑‍🏫  Juan José González
 ## Software Engineer
+
+- DMI: Prom. 2015
+- [Front-end Masters](https://frontendmasters.com/)
 
 7 years of experience:
 - Monitor Programación Web
