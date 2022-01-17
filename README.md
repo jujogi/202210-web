@@ -10,7 +10,7 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 # Temario
 
 ## 🌐 Internet
-- [Internet]()
-- [Web]()
+- [Internet](https://github.com/jujogi/202210-web/blob/main/basics/01-internet.md)
+- [Web](https://github.com/jujogi/202210-web/blob/main/basics/02-web.md)
 
 
