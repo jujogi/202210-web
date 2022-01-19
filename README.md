@@ -5,6 +5,12 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 ## 🧑‍🏫 Profesor
 - [Juan José González](https://github.com/jujogi/202210-web/blob/main/juanjogonzalez.md)
 
+## 🛠️ Herramientas
+- [¿Cómo empezar?](https://github.com/jujogi/202210-web/blob/main/tools.md)
+
+## 💬 Server
+- [Discord](https://discord.gg/vgu2ejV6)
+
 ---
 
 # Temario
