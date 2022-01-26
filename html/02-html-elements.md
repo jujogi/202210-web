@@ -31,4 +31,4 @@
     - `<img>`: Añadir una imagen en el document (image)
 
 ## Articles
-- (HTML has 2 types of elements)[https://marksheet.io/html-block-inline.html]
+- [HTML has 2 types of elements](https://marksheet.io/html-block-inline.html)
