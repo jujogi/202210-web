@@ -23,4 +23,5 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - [Basics](https://github.com/jujogi/202210-web/blob/main/html/01-html-basics.md)
 - [Elements](https://github.com/jujogi/202210-web/blob/main/html/02-html-elements.md)
 - [Form](https://github.com/jujogi/202210-web/blob/main/html/03-html-forms.md)
+- [Class & Ids](https://github.com/jujogi/202210-web/blob/main/html/04-html-class-id.md)
 
