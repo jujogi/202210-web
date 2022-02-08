@@ -1,7 +1,7 @@
 # ♻️ GIT
 
 ## ¿Qué es?
-Sistema de control de versiones
+Sistema de control de versiones. Se acabaron los "EsteSiEs", "FinalFinalNoDaMas", "EsteSiV2" 😆
 
 ## Beneficios
 -   Trabajo colaborativo
@@ -23,3 +23,10 @@ Sistema de control de versiones
 - ¿Como dividir el trabajo en ramas?
 - ¿Qué es un pull request?
 - `git merge <branch_name>`: Fusionar los cambios de mi rama con una rama principal. Evito conflictos.
+
+## Github Pages
+- 1. Settings
+- 2. Pages
+- 3. Source: Seleccionar la rama
+- 4. Nuestro archivo principal debe llamarse `index.html`. (En minúsculas)
+- 5. La url de mi página debe ser: `https://<githubUser>.github.io/<repoName>`

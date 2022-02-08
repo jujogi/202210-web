@@ -25,4 +25,5 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - [Form](https://github.com/jujogi/202210-web/blob/main/html/03-html-forms.md)
 - [Class & Ids](https://github.com/jujogi/202210-web/blob/main/html/04-html-class-id.md)
 - [BEM: Block - Element - Modifier](https://github.com/jujogi/202210-web/blob/main/html/05-html-bem.md)
+- [Git](https://github.com/jujogi/202210-web/blob/main/html/06-git.md)
 
