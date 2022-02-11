@@ -27,3 +27,6 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - [BEM: Block - Element - Modifier](https://github.com/jujogi/202210-web/blob/main/html/05-html-bem.md)
 - [Git](https://github.com/jujogi/202210-web/blob/main/html/06-git.md)
 
+## CSS
+- [Intro](https://github.com/jujogi/202210-web/blob/main/css/01-intro.md)
+- [Size units](https://github.com/jujogi/202210-web/blob/main/css/02-units.md)
