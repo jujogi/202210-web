@@ -1,0 +1,53 @@
+/* Reset default browser props */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Utilitary classes */
+.white {
+    color: white;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+/* end Utilitary classes */
+
+nav {
+    background-color: rgb(160, 160, 240);
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu__item {
+    margin: 0 10px;
+}
+
+.academic {
+    background: rgb(15, 15, 88);
+    padding: 20px;
+}
+
+.academics {
+    display: flex;
+}
+
+.academics__column {
+    width: 30%;
+    margin: 10px;
+}
+
+.academics__image {
+    width: 100%;
+}
+
