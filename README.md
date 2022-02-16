@@ -30,3 +30,6 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 ## CSS
 - [Intro](https://github.com/jujogi/202210-web/blob/main/css/01-intro.md)
 - [Size units](https://github.com/jujogi/202210-web/blob/main/css/02-units.md)
+- [CSS Properties](https://github.com/jujogi/202210-web/blob/main/css/03-css-properties.md)
+- [CSS Layout](https://github.com/jujogi/202210-web/blob/main/css/04-css-layout.md)
+- [Flexbox](https://github.com/jujogi/202210-web/blob/main/css/05-flex.md)
