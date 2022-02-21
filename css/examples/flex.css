@@ -5,21 +5,34 @@
     margin: 0;
 }
 
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* overflow-x: hidden; */
+}
+
 /* Utilitary classes */
 .white {
     color: white;
+}
+
+.font--redressed {
+    font-family: 'Redressed', cursive;
 }
 
 .flex {
     display: flex;
     align-items: center;
 }
+
+.logo--mobile {
+    display: none;
+}
 /* end Utilitary classes */
 
 nav {
     background-color: rgb(160, 160, 240);
     justify-content: space-between;
-
     padding: 20px;
 }
 
@@ -45,6 +58,7 @@ nav {
 .academics__column {
     width: 30%;
     margin: 10px;
+    font-size: 1.5em;
 }
 
 .academics__image {

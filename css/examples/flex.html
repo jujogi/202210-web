@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Examples</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Redressed&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./flex.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
 </head>
 <body>
     <nav class="flex">
         <div class="nav__left flex">
-            <h1>Logo</h1>
+            <h1 class="logo--desktop">Logo</h1>
+            <img class="logo--mobile" src="https://www.icesi.edu.co/images/logo.png" alt="Logo version mobile">
             <ul class="menu">
                 <li class="menu__item">Item 1</li>
                 <li class="menu__item">Item 2</li>
@@ -29,21 +35,24 @@
     
     <section class="academic">
 
-        <h2 class="white">Prestigio Académico</h2>
+        <h2 class="white font--redressed">Prestigio Académico</h2>
 
         <div class="academics">
             <div class="academics__column">
                 <img src="https://www.icesi.edu.co/images/home/departamentos_academicos.jpg" alt="" class="academics__image">
+                <h2 class="white">titulo</h2>
                 <p class="white">La Universidad Icesi cuenta con 27 departamentos académicos y 230 profesores de tiempo completo con la más alta calidad académica. El 64,35% de los docentes tienen formación doctoral o están en proceso para alcanzar esta categoría.</p>
             </div>
 
             <div class="academics__column">
                 <img src="https://www.icesi.edu.co/images/home/grupos_de_investigacion.jpg" alt="" class="academics__image">
+                <h2 class="white">titulo</h2>
                 <p class="white">La Universidad Icesi cuenta con 27 departamentos académicos y 230 profesores de tiempo completo con la más alta calidad académica. El 64,35% de los docentes tienen formación doctoral o están en proceso para alcanzar esta categoría.</p>
             </div>
 
             <div class="academics__column">
                 <img src="https://www.icesi.edu.co/images/home/centros_academicos.jpg" alt="" class="academics__image">
+                <h2 class="white">titulo</h2>
                 <p class="white">La Universidad Icesi cuenta con 27 departamentos académicos y 230 profesores de tiempo completo con la más alta calidad académica. El 64,35% de los docentes tienen formación doctoral o están en proceso para alcanzar esta categoría.</p>
             </div>
 
