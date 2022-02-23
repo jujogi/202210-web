@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Clases utilitarias */
+.flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    color: #FFF;
+    height: 65px;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: 20px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.menu__expanded {
+    display: none;
+}
+
+.menu__item {
+    margin: 0 10px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.menu__item a {
+    color: #FFF;
+}
+
+.menu__item:hover {
+    background-color: rgb(71, 71, 71);
+    border-radius: 20px;
+}
+
+.menu__item button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+}
+
+.menu__expanded {
+    position: absolute;
+    background-color: rgb(230, 230, 230);
+    padding: 10px 20px;
+    left: -12px;
+    top: 45px;
+}
+
+.menu__item button, .menu__item a {
+    font-size: .65em;
+}
+
+.menu__item:hover > .menu__expanded {
+    display: block;
+}
