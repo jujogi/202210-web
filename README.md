@@ -11,6 +11,9 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 ## 💬 Server
 - [Discord](https://discord.gg/vgu2ejV6)
 
+## 🎞 Lista de vídeos
+- [Youtube](https://www.youtube.com/watch?v=ea9uoaJBn00&list=PLSXu7UPb1IEeCm20FcI333AmUzM5YCEkf)
+
 ---
 
 # Temario
