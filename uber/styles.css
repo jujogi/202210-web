@@ -6,6 +6,7 @@
 
 html, body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 button {
@@ -34,11 +35,18 @@ a {
     color: rgb(51, 51, 51);
 }
 
+.anchor {
+    font-size: .9em;
+    color: rgb(51, 51, 51);
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
 header {
     background-color: black;
     padding: 0 50px;
     color: #FFF;
-    height: 80px;
+    height: 64px;
 }
 
 .nav {
@@ -73,6 +81,14 @@ header {
     color: #FFF;
 }
 
+.menu__mobile {
+    display: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
 .menu__item button {
     background-color: transparent;
     border: none;
@@ -81,10 +97,12 @@ header {
 
 .menu__expanded {
     position: absolute;
+    z-index: 1;
+
     background-color: rgb(230, 230, 230);
     padding: 10px 20px;
     left: -12px;
-    top: 80px;
+    top: 64px;
     width: 275px;
 }
 
@@ -94,7 +112,7 @@ header {
 }
 
 .menu__item button, .menu__item a {
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: .85em;
 }
 
@@ -124,6 +142,14 @@ header {
     object-fit: cover;
 }
 
+.companies {
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/DotCom_Update_U4B_bg_ipad.png);
+    background-size: cover;
+    background-position-y: -150px;
+}
+
 .services {
     width: 450px;
     background: white;
@@ -136,7 +162,7 @@ header {
 }
 
 .features {
-    padding: 20px 50px;
+    padding: 50px;
 }
 
 .feat {
@@ -162,9 +188,40 @@ header {
     font-weight: 300;
 }
 
-.feat__anchors a {
-    font-size: .9em;
-    color: rgb(51, 51, 51);
-    margin-right: 10px;
-    text-decoration: underline;
+.about {
+    padding: 50px;
+    background-color: rgb(243, 243, 243);
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__column {
+    width: 30%;
+}
+
+.about__title {
+    font-size: 1.5em;
+}
+
+.about__description {
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.about__cta {
+    display: block;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
 }

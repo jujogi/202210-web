@@ -1,0 +1,45 @@
+@media all and (max-width: 1024px) {
+    .feat {
+        flex-wrap: wrap;
+    }
+
+    .feat__column {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .about__container {
+        flex-wrap: wrap;
+    }
+
+    .about__column {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu__mobile {
+        display: block;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .services {
+        width: 100%;
+        position: static;
+        transform: none;
+    }
+
+    .banner__background {
+        height: 300px;
+    }
+    
+    .banner {
+        height: auto;
+    }
+}
