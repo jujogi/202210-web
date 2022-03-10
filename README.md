@@ -37,3 +37,5 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - [CSS Layout](https://github.com/jujogi/202210-web/blob/main/css/04-css-layout.md)
 - [Flexbox](https://github.com/jujogi/202210-web/blob/main/css/05-flex.md)
 - [Media queries](https://github.com/jujogi/202210-web/blob/main/css/06-mediaqueries.md)
+- [Pseudo Classes & Elements](https://github.com/jujogi/202210-web/blob/main/css/07-pseudo-classes-elements.md)
+- [SASS](https://github.com/jujogi/202210-web/blob/main/css/08-sass.md)
