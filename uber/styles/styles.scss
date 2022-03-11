@@ -2,6 +2,8 @@ $grayColor: rgb(51, 51, 51);
 $whiteColor: $whiteColor;
 $largeTitle: 2em;
 
+$poppinsFont: 'Poppins', sans-serif;
+
 @mixin button {
     padding: 5px 10px;
     font-size: .85em;
@@ -14,12 +16,12 @@ $largeTitle: 2em;
 }
 
 html, body {
-    font-family: 'Poppins', sans-serif;
+    font-family: $poppinsFont;
     overflow-x: hidden;
 }
 
 button {
-    font-family: 'Poppins', sans-serif;
+    font-family: $poppinsFont;
 }
 
 ul {
