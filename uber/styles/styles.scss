@@ -1,0 +1,248 @@
+$grayColor: rgb(51, 51, 51);
+$whiteColor: $whiteColor;
+$largeTitle: 2em;
+
+@mixin button {
+    padding: 5px 10px;
+    font-size: .85em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Clases utilitarias */
+.flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.title {
+    font-size: $largeTitle;
+    color: rgb(51, 51, 51);
+}
+
+.anchor {
+    font-size: .9em;
+    color: rgb(51, 51, 51);
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    padding: 0 50px;
+    color: $whiteColor;
+    height: 64px;
+}
+
+
+.nav {
+    justify-content: space-between;
+    height: 100%;
+}
+
+.title {
+    font-size: $largeTitle;
+    color: $grayColor;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.menu {
+    height: 100%;
+    align-items: center;
+
+    &__expanded {
+        position: absolute;
+        z-index: 1;
+    
+        background-color: rgb(230, 230, 230);
+        padding: 10px 20px;
+        left: -12px;
+        top: 64px;
+        width: 275px;
+        display: none;
+
+        li {
+            padding: 10px;
+            border-bottom: solid 1px rgb(121, 121, 121);
+        }
+    }
+
+    &__item {
+        margin: 0 10px;
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            > .menu__expanded { 
+                display: block;
+            }
+        }
+
+        a {
+            color: $whiteColor;
+            @include button;
+
+            &:hover {
+                background-color: rgb(71, 71, 71);
+                border-radius: 20px;
+            }
+        }
+
+        button {
+            background-color: transparent;
+            border: none;
+            color: $whiteColor;
+
+            @include button;
+
+            &:hover {
+                background-color: rgb(71, 71, 71);
+                border-radius: 20px;
+            }
+
+        }
+    }
+
+    &__mobile {
+        display: none;
+        background-color: transparent;
+        color: $whiteColor;
+        font-weight: bold;
+        border: none;
+    }
+
+}
+
+.logo {
+    margin-right: 20px;
+    color: $whiteColor;
+    font-size: 20px;
+}
+
+
+.banner {
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+    &__background {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.companies {
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/DotCom_Update_U4B_bg_ipad.png);
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+.services {
+    width: 450px;
+    background: white;
+    padding: 50px;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+}
+
+
+.features {
+    padding: 50px;
+}
+
+.feat {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    &__column {
+        width: 48%;
+    }
+
+    &__image {
+        width: 100%;
+    }
+    
+    &__title {
+        margin: 20px 0 15px 0;
+        font-weight: 700;
+    }
+    
+    &__paragraph {
+        font-weight: 300;
+    }
+}
+
+.about {
+    padding: 50px;
+    background-color: rgb(243, 243, 243);
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__column {
+        width: 30%;
+    }
+    
+    &__title {
+        font-size: 1.5em;
+    }
+    
+    &__description {
+        font-size: 1.1em;
+        margin-top: 15px;
+    }
+    
+    &__cta {
+        display: block;
+        margin-top: 20px;
+    }
+
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+
+    p {
+        color: $whiteColor;
+        text-align: center;
+    }
+}

@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Clases utilitarias */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  font-size: 2em;
+  color: #333333;
+}
+
+.anchor {
+  font-size: .9em;
+  color: #333333;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+header {
+  background-color: black;
+  padding: 0 50px;
+  color: #FFF;
+  height: 64px;
+}
+
+.nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.title {
+  font-size: 2em;
+  color: #333333;
+}
+
+.title:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.menu {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__expanded {
+  position: absolute;
+  z-index: 1;
+  background-color: #e6e6e6;
+  padding: 10px 20px;
+  left: -12px;
+  top: 64px;
+  width: 275px;
+  display: none;
+}
+
+.menu__expanded li {
+  padding: 10px;
+  border-bottom: solid 1px #797979;
+}
+
+.menu__item {
+  margin: 0 10px;
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__item:hover > .menu__expanded {
+  display: block;
+}
+
+.menu__item a {
+  color: #FFF;
+  padding: 5px 10px;
+  font-size: .85em;
+}
+
+.menu__item a:hover {
+  background-color: #474747;
+  border-radius: 20px;
+}
+
+.menu__item button {
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+  padding: 5px 10px;
+  font-size: .85em;
+}
+
+.menu__item button:hover {
+  background-color: #474747;
+  border-radius: 20px;
+}
+
+.menu__mobile {
+  display: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.logo {
+  margin-right: 20px;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.banner__background {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.companies {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/DotCom_Update_U4B_bg_ipad.png);
+  background-size: cover;
+  background-position-y: -150px;
+}
+
+.services {
+  width: 450px;
+  background: white;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 50px;
+}
+
+.features {
+  padding: 50px;
+}
+
+.feat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.feat__column {
+  width: 48%;
+}
+
+.feat__image {
+  width: 100%;
+}
+
+.feat__title {
+  margin: 20px 0 15px 0;
+  font-weight: 700;
+}
+
+.feat__paragraph {
+  font-weight: 300;
+}
+
+.about {
+  padding: 50px;
+  background-color: #f3f3f3;
+}
+
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about__column {
+  width: 30%;
+}
+
+.about__title {
+  font-size: 1.5em;
+}
+
+.about__description {
+  font-size: 1.1em;
+  margin-top: 15px;
+}
+
+.about__cta {
+  display: block;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
