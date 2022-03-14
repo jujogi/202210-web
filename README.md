@@ -39,3 +39,8 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - [Media queries](https://github.com/jujogi/202210-web/blob/main/css/06-mediaqueries.md)
 - [Pseudo Classes & Elements](https://github.com/jujogi/202210-web/blob/main/css/07-pseudo-classes-elements.md)
 - [SASS](https://github.com/jujogi/202210-web/blob/main/css/08-sass.md)
+
+## Javascript
+- [What is Javascript?](https://github.com/jujogi/202210-web/blob/main/javascript/01-what-is-js.md)
+- [How to start?](https://github.com/jujogi/202210-web/blob/main/javascript/02-how-to-start.md)
+- [Variables](https://github.com/jujogi/202210-web/blob/main/javascript/03-variables.md)
