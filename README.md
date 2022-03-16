@@ -44,3 +44,6 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - [What is Javascript?](https://github.com/jujogi/202210-web/blob/main/javascript/01-what-is-js.md)
 - [How to start?](https://github.com/jujogi/202210-web/blob/main/javascript/02-how-to-start.md)
 - [Variables](https://github.com/jujogi/202210-web/blob/main/javascript/03-variables.md)
+- [Arrays](https://github.com/jujogi/202210-web/blob/main/javascript/04-arrays.md)
+- [Objects](https://github.com/jujogi/202210-web/blob/main/javascript/05-objects.md)
+- [Conditionals](https://github.com/jujogi/202210-web/blob/main/javascript/06-conditionals.md)
