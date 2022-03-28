@@ -48,3 +48,4 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - [Objects](https://github.com/jujogi/202210-web/blob/main/javascript/05-objects.md)
 - [Conditionals](https://github.com/jujogi/202210-web/blob/main/javascript/06-conditionals.md)
 - [Functions](https://github.com/jujogi/202210-web/blob/main/javascript/07-functions.md)
+- [DOM](https://github.com/jujogi/202210-web/blob/main/javascript/08-dom.md)
