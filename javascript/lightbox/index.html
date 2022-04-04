@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightbox</title>
+
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    }
+
+    ul {
+    list-style: none;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    ul li {
+        width: 100px;
+    height: 100px;
+    margin: 0 5px;
+    cursor: pointer;
+    }
+
+    li img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: solid 1px black;
+    border-radius: 4px;
+    }
+
+    .lightbox {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: #000000ad;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lightbox img {
+        width: 200px;
+    }
+
+    .lightbox p {
+        color: #FFF;
+        font-size: 1.8em;
+    }
+
+    #closeLightbox {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    @keyframes upAnimation {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .lightbox__content {
+        animation: upAnimation 1s ease-in-out forwards;
+    }
+
+    #previous {
+        position: absolute;
+        left: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #next {
+        position: absolute;
+        right: 25px;
+        top: 50%;
+        transform: translateY(-50%);   
+    }
+
+</style>
+</head>
+<body>
+<ul id="gallery">
+    <li>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_995465-MLA45731835097_042021-F.webp" class="image" alt="Xbox">
+    </li>
+    <li>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_979609-MCO42138486694_062020-F.webp" class="image" alt="Nintendo 64">
+    </li>
+    <li>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_921947-MLA45732843777_042021-F.webp" class="image" id="img3" alt="Play Station 5">
+    </li>
+    <li>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_691475-MLA46080486375_052021-F.webp" class="image" alt="Fifa 22">
+    </li>
+</ul>
+<script src="./lightbox.js"></script>
+
+</body>
+</html>
