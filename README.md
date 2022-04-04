@@ -50,3 +50,4 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - [Functions](https://github.com/jujogi/202210-web/blob/main/javascript/07-functions.md)
 - [DOM](https://github.com/jujogi/202210-web/blob/main/javascript/08-dom.md)
 - [Ejercicio #1 DOM](https://github.com/jujogi/202210-web/blob/main/javascript/08-exercise-01.md)
+- [Array Functions](https://github.com/jujogi/202210-web/blob/main/javascript/09-array-functions.md)
