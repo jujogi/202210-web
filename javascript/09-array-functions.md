@@ -8,7 +8,6 @@ Funciones que nos van a permitir manipular la información de un arreglo. Existe
 ## Top 10 array functions
 
 - `push`: Añade un nuevo elemento al arreglo.
-- `slice`: Crea una copia de una porción del arreglo, desde el primer parámetro (incluído) hasta el segundo parámetro (no incluído).
 - `forEach`: Recorrer los valores de un arreglo.
 - `includes`: Determina si un arreglo incluye un determinado elemento.
 - `join`: Une todos los elementos de un arreglo y los convierte en una cadena de texto.
