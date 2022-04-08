@@ -31,3 +31,6 @@ const list = [10, 200, 30, 70, 180, 499];
 - Crear un string con todos los elementos separados por guión. (join).
 - Validar si existe algún elemento que sea impar. (some).
 - Crear un nuevo arreglo que multiplique cada valor por 20. (map).
+
+## File
+[array-functions.js](https://github.com/jujogi/202210-web/blob/main/javascript/array-functions.js)
