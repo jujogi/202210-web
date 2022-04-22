@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./login.html",
+    "dev": "parcel ./*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "juanjo",
@@ -13,6 +13,8 @@
     "firebase": "^9.6.11"
   },
   "devDependencies": {
-    "parcel": "^2.4.1"
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "process": "^0.11.10"
   }
 }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a new product</title>
+</head>
+<body>
+    <form id="createProductForm">
+        <input type="text" name="name" placeholder="Nombre del producto">
+        <textarea name="description"></textarea>
+        <input type="number" name="price">
+        <select name="category">
+            <option value="car">Carro</option>
+            <option value="bike">Bicicleta</option>
+        </select>
+        <input type="file" name="images" multiple>
+        <input type="submit" value="Crear producto">
+    </form>
+    <script src="./src//scripts/createProduct.js" type="module"></script>
+</body>
+</html>
