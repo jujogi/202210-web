@@ -63,4 +63,5 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 ### Firestore: Base de datos
 - 📚 [Documentación](https://firebase.google.com/docs/firestore/quickstart?hl=es-419#web-version-9)
 - 📙 [Métodos](https://github.com/jujogi/202210-web/blob/main/firebase/firestore.md)
-- 🎥 [Guardar información adicional del usuario](https://youtu.be/UOjXcYS_7UI)
+- 🎥 [Guardar información adicional del usuario](https://youtu.be/UOjXcYS_7UI) | [login.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/login.js) | [auth.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/auth.js) 
+- 🎥 [Creación de productos - Formulario admin](https://youtu.be/zfw1yTphRNs) | [createProduct.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/createProduct.js) | [addProduct.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/addProduct.js) 
