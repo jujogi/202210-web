@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My shop</title>
+    <link rel="stylesheet" href="./src/styles/shop.scss">
+</head>
+<body>
+    <label for="category">Filtrar por categoría</label>
+    <select name="category" id="category">
+        <option value="">Todas</option>
+        <option value="console">Consolas</option>
+        <option value="games">Video juegos</option>
+        <option value="accesories">Accesorios</option>
+    </select>
+
+    <label for="order">Ordenar por</label>
+    <select name="order" id="order">
+        <option value="">Selecciona una opción</option>
+        <option value="asc">Precio: De mayor a menor</option>
+        <option value="desc">Precio: De menor a mayor</option>
+    </select>
+
+
+    <section class="products" id="products">
+        <!-- <a class="product" href="#">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_757658-MLA49753184518_042022-O.webp" alt="" class="product__image">
+            <div class="product__info">
+                <h2 class="product__name">Nombre</h2>
+                <h3 class="product__price">$50000</h3>
+                <button class="product__cart">Añadir al carrito</button>
+            </div>
+        </a> -->
+
+        <div class="loader"></div>
+
+    </section>
+    <script src="./src/scripts/shop.js" type="module"></script>
+</body>
+</html>
