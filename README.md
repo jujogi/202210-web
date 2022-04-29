@@ -65,4 +65,5 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - 📙 [Métodos](https://github.com/jujogi/202210-web/blob/main/firebase/firestore.md)
 - 🎥 [Guardar información adicional del usuario](https://youtu.be/UOjXcYS_7UI) | [login.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/login.js) | [auth.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/auth.js) 
 - 🎥 [Creación de productos - Formulario admin](https://youtu.be/zfw1yTphRNs) | [createProduct.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/createProduct.js) | [addProduct.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/addProduct.js) 
-- 🎥 [Página de productos](https://youtu.be/28E0SNqpnuc) | [shop.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/shop.js) | [products.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/products.js) 
+- 🎥 [Página de productos](https://youtu.be/28E0SNqpnuc) | [shop.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/shop.js) | [products.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/products.js)
+- 🎥 [Agregar productos al carrito](https://youtu.be/4m1xXrYqaPg) | [shop.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/shop.js)

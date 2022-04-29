@@ -1,0 +1,89 @@
+/* Elemento */
+* {
+    box-sizing: border-box;
+}
+
+div {
+    background-color: blue;
+    font-size: 80px;
+}
+
+/* A una clase */
+.title {
+    color: red;
+    font-size: 30px;
+}
+
+.title--yellow {
+    color: yellow;
+}
+
+.title--small {
+    font-size: 15px;
+}
+
+#btn {
+    background-color: green;
+}
+
+.example {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.margin {
+    margin: 20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 5%;
+}
+
+.slider {
+    width: 100%;
+    background-color: green;
+}
+
+.logo {
+    width: 50%;
+    width: 150px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+}
+
+section div {
+    background-color: tomato;
+    width: 32%;
+    height: 300px;
+    margin: 10px;
+}
+
+/* EM */
+
+.parent {
+    font-size: 2em;
+}
+
+.parent__subtitle {
+    font-size: 1em;
+}
+
+.parent__title {
+    font-size: 1.5em;
+}
+
+.parent__paragraph {
+    font-size: .8em;
+}
