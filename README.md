@@ -67,3 +67,5 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - 🎥 [Creación de productos - Formulario admin](https://youtu.be/zfw1yTphRNs) | [createProduct.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/createProduct.js) | [addProduct.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/addProduct.js) 
 - 🎥 [Página de productos](https://youtu.be/28E0SNqpnuc) | [shop.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/shop.js) | [products.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/products.js)
 - 🎥 [Agregar productos al carrito](https://youtu.be/4m1xXrYqaPg) | [shop.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/shop.js)
+- 🎥 [Página de producto individual](https://youtu.be/JQUd32RS37o) | [product.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/product.js) | [getProduct.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/getProduct.js)
+
