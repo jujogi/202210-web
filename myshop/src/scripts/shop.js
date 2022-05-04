@@ -2,6 +2,7 @@ import { db, auth } from "./app";
 import { onAuthStateChanged } from "firebase/auth";
 import { getProducts } from "./functions/products";
 import { createFirebaseCart, getFirebaseCart  } from "./functions/cart";
+import { addProductToCart, getMyLocalCart, currencyFormat } from "../utils";
 
 const productSection = document.getElementById("products");
 const categoryFilter = document.getElementById("category");
@@ -40,7 +41,7 @@ function renderProduct(item) {
     <div class="product__info">
         <p class="product__category">${item.category}</p> 
         <h2 class="product__name">${item.name}</h2>
-        <h3 class="product__price">$${item.price}</h3>
+        <h3 class="product__price">${currencyFormat(item.price)}</h3>
         ${productButtonCart}
     </div>
     `;
@@ -53,7 +54,7 @@ function renderProduct(item) {
         e.preventDefault(); // evitar que al dar click en el boton, funcione el enlace del padre.
 
         cart.push(item);
-        addProductToCart();
+        addProductToCart(cart);
 
         if (userLogged) {
             await createFirebaseCart(db, userLogged.uid, cart);
@@ -63,15 +64,6 @@ function renderProduct(item) {
         productCartButton.innerText = "Producto añadido";
 
     });
-}
-
-async function addProductToCart() {
-    localStorage.setItem("cart", JSON.stringify(cart));
-};
-
-function getMyCart() {
-    const myCart = localStorage.getItem("cart");
-    return myCart ? JSON.parse(myCart) : [];
 }
 
 function filterBy(){
@@ -110,7 +102,6 @@ orderFilter.addEventListener("change", e => {
 });
 
 onAuthStateChanged(auth, async (user) => {
-    console.log(user);
     if (user) {
       // User is signed in, see docs for a list of available properties
       // https://firebase.google.com/docs/reference/js/firebase.User
@@ -118,7 +109,7 @@ onAuthStateChanged(auth, async (user) => {
       cart = await getFirebaseCart(db, userLogged.uid);
       // ...
     } else {
-        cart = getMyCart();
+        cart = getMyLocalCart();
       // User is signed out
       // ...
     }

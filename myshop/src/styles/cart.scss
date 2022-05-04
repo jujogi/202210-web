@@ -1,0 +1,16 @@
+.cart {
+    .product {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__image {
+            width: 150px;
+        }
+
+        h2 {
+            width: 200px;
+            font-size: .9em;
+        }
+    }
+}
