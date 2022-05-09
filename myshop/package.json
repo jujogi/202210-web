@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "parcel ./*.html --no-cache",
-    "build": "parcel build ./*.html",
+    "build": "parcel build --public-url ./ ./*.html ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "juanjo",
