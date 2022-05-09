@@ -2,9 +2,9 @@
   "name": "myshop",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel ./*.html --no-cache",
+    "build": "parcel build ./*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "juanjo",

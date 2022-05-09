@@ -1,0 +1,21 @@
+.product {
+  align-items: center;
+  display: flex;
+}
+
+.product > div {
+  width: 50%;
+}
+
+.product__mainImage {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+
+.product__gallery img {
+  width: 80px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=product.ab76d831.css.map */
