@@ -68,4 +68,4 @@ Si queda alguna duda, este es el lugar para profundizar lo visto en clase.
 - 🎥 [Página de productos](https://youtu.be/28E0SNqpnuc) | [shop.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/shop.js) | [products.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/products.js)
 - 🎥 [Agregar productos al carrito](https://youtu.be/4m1xXrYqaPg) | [shop.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/shop.js)
 - 🎥 [Página de producto individual](https://youtu.be/JQUd32RS37o) | [product.html](https://github.com/jujogi/202210-web/blob/main/myshop/product.html) | [product.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/product.js) | [getProduct.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/functions/getProduct.js)
-
+- 🎥 [Página del carrito](https://youtu.be/bIjJjCobhl8) | [cart.html](https://github.com/jujogi/202210-web/blob/main/myshop/cart.html) | [product.js](https://github.com/jujogi/202210-web/blob/main/myshop/src/scripts/cart.js)
