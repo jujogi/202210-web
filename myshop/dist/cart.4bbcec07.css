@@ -1,0 +1,16 @@
+.cart .product {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.cart .product__image {
+  width: 150px;
+}
+
+.cart .product h2 {
+  width: 200px;
+  font-size: .9em;
+}
+
+/*# sourceMappingURL=cart.4bbcec07.css.map */
